@@ -29,6 +29,13 @@
           });
         });
       }
+
+
+      function connectMysql(){
+        pomelo.request("connector.entryHandler.mysql", function(data) {
+            alert(data.msg);
+          });
+      }
     </script>
   </head>
   <body>
@@ -49,6 +56,7 @@
       </div>
       <div class="g-button">
         <input id="test" type="button" value="Test Game Server" onclick="show()"/>
+        <input id="test" type="button" value="Connect Mysql" onclick="connectMysql()"/>
       </div>
     </div>
   </body>
