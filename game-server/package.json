@@ -3,7 +3,8 @@
     "version":"0.0.1",
     "private":false,
     "dependencies":{
-        "pomelo":"0.2.2"
+        "pomelo":"0.2.2",
+        "msyql":"2.0.0-alpha5"
     }
 }
 
